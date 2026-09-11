@@ -38,7 +38,7 @@ export default function Home({ scrollTo }) {
 
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 28 }}>
             <button className="btn-primary" onClick={() => scrollTo("contact")}>Get in touch</button>
-            <a href="/238R1A05P4_MENDASAITEJA.pdf" download>
+            <a href="/resume.pdf" download>
               <button className="btn-outline">Download Resume</button>
             </a>
           </div>
